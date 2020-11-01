@@ -1,3 +1,214 @@
 * {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted;
+  height: 100px;
+  width: 30px;
+  margin-left: 50%;
+  padding-bottom: 20px;
+  color: gray;
+}
+
+.container-one {
+  height: 300px;
+  background: #e8e8e8;
+  position: relative;
+  text-align: center;
+}
+
+.twitter {
+  padding: 50px 20px;
+}
+
+.miniheading {
+  padding-bottom: 20px;
+  font: 1em sans-serif;
+  opacity: 0.6;
+}
+
+.time {
+  color: gray;
+}
+
+.text {
+  font: 1em sans-serif;
+  font-style: italic;
+  color: gray;
+  opacity: 0.5;
+  line-height: 1em;
+}
+
+.container-two {
+  height: 900px;
+  border: 20px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background: yellow;
+  flex-direction: column;
+}
+
+.child1 {
+  width: 267px;
+  height: 267px;
+}
+
+.child2 {
+  width: 267px;
+  height: 267px;
+}
+
+.child3 {
+  width: 267px;
+  height: 534px;
+}
+
+.child4 {
+  width: 269px;
+  height: 534px;
+}
+
+.child5 {
+  width: 533px;
+  height: 267px;
+}
+
+.child6 {
+  width: 533px;
+  height: 267px;
+}
+
+.child7 {
+  width: 267px;
+  height: 267px;
+}
+
+.child8 {
+  width: 267px;
+  height: 267px;
+}
+
+.discover {
+  height: 200px;
+  background: #1b262c;
+  position: relative;
+  text-align: center;
+}
+
+.uppercase {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.button {
+  margin-top: 70px;
+  width: 500px;
+  background-color: #1b262c;
+  text-align: center;
+
+  line-height: 2.5;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #000;
+}
+
+.container-three {
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  padding: 50px 0 40px;
+}
+.text-two {
+  font: 18px sans-serif;
+  font-style: italic;
+  color: gray;
+  opacity: 0.5;
+  line-height: 1em;
+  padding-bottom: 30px;
+}
+
+.gobutton {
+  background-color: #44c767;
+  border: 3px solid #44c767;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 18px;
+  width: 100px;
+  padding: 6px 12px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.gobutton:hover {
+  background-color: #5cbf2a;
+}
+
+.eml {
+  width: 200px;
+  height: 35px;
+
+  border-color: 2px black;
+  display: inline-block;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  opacity: 0.5;
+  padding-left: 10px;
+}
+
+.footer {
+  background-color: #e8e8e8;
+  margin-top: 50px;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.addr {
+  margin-left: 50px;
+}
+.address1 {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: gray;
+}
+
+.address2 {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: gray;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.crafted {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: gray;
+  font-style: italic;
+  font-weight: bold;
+}
+.yebo {
+  font-family: "Pacifico";
+  font-size: 2rem;
+  font-style: normal;
+  color: #000;
+  padding-left: 2px;
 }
