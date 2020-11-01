@@ -12,6 +12,7 @@ hr {
   margin-left: 50%;
   padding-bottom: 20px;
   color: gray;
+  margin-top: 50px;
 }
 
 .container-one {
@@ -43,54 +44,73 @@ hr {
   line-height: 1em;
 }
 
-.container-two {
-  height: 900px;
-  border: 20px solid blue;
+/* pictures part */
+#picture {
+  height: 630px;
+}
+
+.row {
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  background: yellow;
+}
+
+.col13 {
+  width: 35%;
+}
+
+.col12 {
+  width: 50%;
+}
+
+.arranged-items {
+  display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.child1 {
-  width: 267px;
-  height: 267px;
+.image-width {
+  width: 100%;
 }
 
-.child2 {
-  width: 267px;
-  height: 267px;
+.row {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
 }
 
-.child3 {
-  width: 267px;
-  height: 534px;
+.cycle {
+  background-color: #44c767;
+}
+.image2 {
+  position: absolute;
+  top: 110px;
+  left: 300px;
+  width: 10%;
+  padding-bottom: 10%;
 }
 
-.child4 {
-  width: 269px;
-  height: 534px;
+.row {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-.child5 {
-  width: 533px;
-  height: 267px;
-}
-
-.child6 {
-  width: 533px;
-  height: 267px;
-}
-
-.child7 {
-  width: 267px;
-  height: 267px;
-}
-
-.child8 {
-  width: 267px;
-  height: 267px;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-top: auto;
+  padding-top: 15px;
 }
 
 .discover {
