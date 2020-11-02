@@ -1,12 +1,18 @@
-
 * {
+  font-family: sans-serif;
+  letter-spacing: 1px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-
-.topnav-container{
+.title {
+  color: #1b262c;
+  opacity: 0.8;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+.topnav-container {
   display: flex;
   position: absolute;
   align-items: center;
@@ -16,13 +22,13 @@
   margin-top: 30px;
 }
 
-.mainlogo{
+.mainlogo {
   position: relative;
   width: 94px;
   height: 85px;
 }
 
-.topnav{
+.topnav {
   position: relative;
   padding-left: 30px;
   padding-right: 30px;
@@ -42,40 +48,41 @@
   font-weight: bold;
 }
 
-.row{
+.row {
   display: flex;
 }
 
-.text-box{
+.text-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 25px;
   padding-right: 20px;
   line-height: 1.5;
+  color: #bbbfca;
 }
 
-.text-icon{
+.text-icon {
   display: inline-block;
   padding-top: 40px;
   padding-bottom: 30px;
 }
 
-.col2{
+.col2 {
   display: flex;
   background-color: rgba(255, 248, 248, 0.952);
   padding: 30 120 70 120;
   text-align: center;
 }
 
-.col23{
+.col23 {
   display: flex;
   width: 66%;
   align-items: center;
   justify-content: center;
 }
 
-.col13{
+.col13 {
   display: flex;
   width: 33%;
   align-items: center;
@@ -88,32 +95,18 @@
   justify-content: space-between;
 }
 
-.img100{
+.img100 {
   width: 100%;
 }
 
-.img-logo{
+.img-logo {
   position: absolute;
   display: inline-block;
   align-items: center;
-  
- }
-
-  
-hr {
-  border-style: none;
-  border-top: 5px dotted;
-  height: 100px;
-  width: 30px;
-  margin-left: 50%;
-  padding-bottom: 20px;
-  color: #e8e8e8;
-  margin-top: 50px;
 }
 
 .container-one {
   height: 300px;
-  background: gray;
   position: relative;
   text-align: center;
 }
@@ -140,9 +133,19 @@ hr {
   line-height: 1em;
 }
 
+hr {
+  border-style: none;
+  border-top: 5px dotted;
+  height: 100px;
+  width: 30px;
+  margin-left: 50%;
+  padding-bottom: 20px;
+  color: #495464;
+  margin-top: 50px;
+}
 
 #picture {
-  height: 630px;
+  height: 500px;
 }
 
 .rows {
@@ -333,5 +336,4 @@ hr {
   font-style: normal;
   color: #000;
   padding-left: 2px;
-
 }
