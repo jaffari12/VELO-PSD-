@@ -1,9 +1,105 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+
+.topnav-container{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 85px;
+  margin-top: 30px;
+}
+
+.mainlogo{
+  position: relative;
+  width: 94px;
+  height: 85px;
+}
+
+.topnav{
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.topnav a {
+  color: rgb(46, 43, 43);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(46, 43, 43);
+  font-weight: bold;
+}
+
+.row{
+  display: flex;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 20px;
+  line-height: 1.5;
+}
+
+.text-icon{
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.col2{
+  display: flex;
+  background-color: rgba(255, 248, 248, 0.952);
+  padding: 30 120 70 120;
+  text-align: center;
+}
+
+.col23{
+  display: flex;
+  width: 66%;
+  align-items: center;
+  justify-content: center;
+}
+
+.col13{
+  display: flex;
+  width: 33%;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img100{
+  width: 100%;
+}
+
+.img-logo{
+  position: absolute;
+  display: inline-block;
+  align-items: center;
+  
+ }
+
+  
 hr {
   border-style: none;
   border-top: 5px dotted;
@@ -11,13 +107,13 @@ hr {
   width: 30px;
   margin-left: 50%;
   padding-bottom: 20px;
-  color: gray;
+  color: #e8e8e8;
   margin-top: 50px;
 }
 
 .container-one {
   height: 300px;
-  background: #e8e8e8;
+  background: gray;
   position: relative;
   text-align: center;
 }
@@ -44,7 +140,7 @@ hr {
   line-height: 1em;
 }
 
-/* pictures part */
+
 #picture {
   height: 630px;
 }
@@ -76,6 +172,7 @@ hr {
   top: 0;
   left: 0;
 }
+
 .image1 {
   position: relative;
   top: 0;
@@ -89,6 +186,7 @@ hr {
   align-items: center;
   justify-content: center;
 }
+
 .image2 {
   position: absolute;
   display: inline-block;
@@ -129,6 +227,7 @@ hr {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
 .button {
   margin-top: 70px;
   width: 500px;
@@ -153,6 +252,7 @@ hr {
 .logo {
   padding: 50px 0 40px;
 }
+
 .text-two {
   font: 18px sans-serif;
   font-style: italic;
@@ -233,4 +333,5 @@ hr {
   font-style: normal;
   color: #000;
   padding-left: 2px;
+
 }
