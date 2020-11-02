@@ -49,15 +49,15 @@ hr {
   height: 630px;
 }
 
-.row {
+.rows {
   display: flex;
 }
 
-.col13 {
+.column13 {
   width: 35%;
 }
 
-.col12 {
+.column12 {
   width: 50%;
 }
 
@@ -71,7 +71,7 @@ hr {
   width: 100%;
 }
 
-.row {
+.rows {
   position: relative;
   top: 0;
   left: 0;
@@ -85,16 +85,18 @@ hr {
 
 .cycle {
   background-color: #44c767;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .image2 {
   position: absolute;
-  top: 110px;
-  left: 300px;
-  width: 10%;
+  display: inline-block;
+  align-items: center;
   padding-bottom: 10%;
 }
 
-.row {
+.rows {
   position: relative;
   text-align: center;
   color: white;
