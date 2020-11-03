@@ -1,3 +1,21 @@
+* {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* This title class added by Kauser to keep each headings */
+.title {
+  color: #1b262c;
+  opacity: 0.8;
+  letter-spacing: 2px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+/* Patricia CSS goes here*/
 
 nav ul {
   display: flex;
@@ -7,19 +25,22 @@ nav ul {
 
 nav li {
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   font-weight: 550;
   font-size: 15px;
   display: inline-block;
-  width: 80px;
+  width: 90px;
   margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
-  background-image: url("/Users/patricia-andreeakrutoff/VELO-PSD-/assests/Layer 7.png");
+  background-image: url("./assests/Layer 7.png");
   width: 100%;
-  height: 700px;
-  background-position: 41% 0;
+  height: 900px;
+  background-size: cover;
 }
 
 nav {
@@ -39,4 +60,298 @@ nav {
 .content-wrapper {
   width: 90%;
   margin: auto;
+}
+
+/* Chris CSS goes here */
+
+.row {
+  display: flex;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 20px;
+  line-height: 1.5;
+  color: #bbbfca;
+}
+
+.text-icon {
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.col2 {
+  display: flex;
+  background-color: rgba(255, 248, 248, 0.952);
+  padding: 30 120 70 120;
+  text-align: center;
+}
+
+.col23 {
+  display: flex;
+  width: 66%;
+  align-items: center;
+  justify-content: center;
+}
+
+.col13 {
+  display: flex;
+  width: 33%;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img100 {
+  width: 100%;
+}
+
+.img-logo {
+  position: absolute;
+  display: inline-block;
+  align-items: center;
+}
+
+/* Kauser CSS goes here */
+
+.container-one {
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.twitter {
+  padding: 50px 20px;
+}
+
+.miniheading {
+  padding-bottom: 20px;
+  font: 1em sans-serif;
+  opacity: 0.6;
+}
+
+.time {
+  color: gray;
+}
+
+.text {
+  font: 1em sans-serif;
+  font-style: italic;
+  color: gray;
+  opacity: 0.5;
+  line-height: 1em;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted;
+  height: 100px;
+  width: 30px;
+  margin-left: 50%;
+  padding-bottom: 20px;
+  color: #495464;
+  margin-top: 50px;
+}
+
+#picture {
+  height: 500px;
+}
+
+.rows {
+  display: flex;
+}
+
+.column13 {
+  width: 35%;
+}
+
+.column12 {
+  width: 50%;
+}
+
+.arranged-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.image-width {
+  width: 100%;
+}
+
+.rows {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+.cycle {
+  background-color: #44c767;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image2 {
+  position: absolute;
+  display: inline-block;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.rows {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-top: auto;
+  padding-top: 15px;
+}
+
+.discover {
+  height: 200px;
+  background: #1b262c;
+  position: relative;
+  text-align: center;
+}
+
+.uppercase {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.button {
+  margin-top: 70px;
+  width: 500px;
+  background-color: #1b262c;
+  text-align: center;
+
+  line-height: 2.5;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: white;
+  color: #000;
+}
+
+.container-three {
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  padding: 50px 0 40px;
+}
+
+.text-two {
+  font: 18px sans-serif;
+  font-style: italic;
+  color: gray;
+  opacity: 0.5;
+  line-height: 1em;
+  padding-bottom: 30px;
+}
+
+.gobutton {
+  background-color: #44c767;
+  border: 3px solid #44c767;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 18px;
+  width: 100px;
+  padding: 6px 12px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.gobutton:hover {
+  background-color: #5cbf2a;
+}
+
+.eml {
+  width: 200px;
+  height: 35px;
+
+  border-color: 2px black;
+  display: inline-block;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  opacity: 0.5;
+  padding-left: 10px;
+}
+
+.footer {
+  background-color: #e8e8e8;
+  margin-top: 50px;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.addr {
+  margin-left: 50px;
+}
+.address1 {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: gray;
+}
+
+.address2 {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: gray;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.crafted {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: gray;
+  font-style: italic;
+  font-weight: bold;
+}
+.yebo {
+  font-family: "Pacifico";
+  font-size: 2rem;
+  font-style: normal;
+  color: #000;
+  padding-left: 2px;
 }
